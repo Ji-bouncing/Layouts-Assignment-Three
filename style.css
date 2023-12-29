@@ -1,0 +1,24 @@
+header,footer{
+  height:100px;
+  border:2px solid gray;
+  clear:both;
+  background:lightgrey;
+}
+
+section{
+  width:20%;
+  height:400px;
+  border:2px solid gray;
+  float:left;
+  box-sizing:border-box;
+  background:lightblue;
+}
+.bigSize{
+  width:40%;
+  background:rgba(100,100,200,0.1);
+}
+@media all and (min-width:420px) and (max-width:800px){
+  section{
+    background:yellow;
+  }
+}
